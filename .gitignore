@@ -1,0 +1,89 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Rider / JetBrains ---
+.idea/
+*.sln.iml
+# Rider caches & local settings
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+# DataSources local files
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+# Gradle / Maven indices (rare in C# projects, but harmless)
+**/.idea/**/libraries
+
+# --- Visual Studio / .NET build artifacts ---
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.obj
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.cache
+*.log
+*.tlog
+*.ilk
+*.tmp
+*.tmp_proj
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.ipch
+
+# VS metadata
+.vs/
+.vscode/
+
+# --- NuGet ---
+packages/
+*.nupkg
+# NuGet v3 cache
+~/.nuget/
+packages.lock.json
+
+# --- Test results & coverage ---
+TestResults/
+[Bb]enchmarkDotNet.Artifacts/
+*.coverage
+*.coveragexml
+coverage*.xml
+.coverage/
+.coverlet/
+
+# --- ReSharper / Rider (extra) ---
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# --- NCrunch ---
+*.ncrunch*
+.*crunch*.local.xml
+
+# --- Crash dumps / profiling ---
+*.dmp
+*.svclog
+
+# --- Git merge/patch leftovers ---
+*.orig
+*.rej
+
+# --- Temporary / tooling ---
+*.swp
+*.swm
+*.swn
+*.swo
